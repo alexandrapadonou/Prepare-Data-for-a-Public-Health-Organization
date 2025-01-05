@@ -76,6 +76,16 @@ Le jeu de données Open Food Facts utilisé dans ce projet est disponible via le
 - **Langages** : Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
 - **Outils** : Jupyter Notebook, GitHub, Python.
 
+## Bibliothèques Utilisées
+
+Ce projet utilise les bibliothèques Python suivantes :
+
+- **Pandas** : pour le traitement et l'analyse des données.
+- **NumPy** : pour les calculs numériques.
+- **Matplotlib** et **Seaborn** : pour les visualisations.
+- **Scikit-learn** : pour les analyses statistiques et d'apprentissage machine.
+
+
 ---
 
 ## Résultats Attendues
