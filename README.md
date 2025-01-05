@@ -72,10 +72,6 @@ Le jeu de données Open Food Facts utilisé dans ce projet est disponible via le
 
 ---
 
-## Technologies et Outils Utilisés
-- **Langages** : Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
-- **Outils** : Jupyter Notebook, GitHub, Python.
-
 ## Bibliothèques Utilisées
 
 Ce projet utilise les bibliothèques Python suivantes :
@@ -84,6 +80,11 @@ Ce projet utilise les bibliothèques Python suivantes :
 - **NumPy** : pour les calculs numériques.
 - **Matplotlib** et **Seaborn** : pour les visualisations.
 - **Scikit-learn** : pour les analyses statistiques et d'apprentissage machine.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-1.x-green.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.x-orange.svg)
+
 
 
 ---
