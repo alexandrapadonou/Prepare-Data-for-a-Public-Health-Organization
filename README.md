@@ -1,5 +1,5 @@
 # Prepare Data for a Public Health Organization
-![image](https://github.com/user-attachments/assets/1e2a6842-5100-4809-83db-0980f4cebfd4)
+![image](https://github.com/user-attachments/assets/d6728667-ce74-43f2-943b-154111183658)
 
 In this project, I will develop exploratory analysis skills while focusing on data cleaning and multivariate analysis.
 
@@ -21,79 +21,45 @@ Ce projet utilise les bibliothèques Python suivantes :
 
 ---
 
-# Analyse des Données Open Food Facts
+## 🌍 Les Données de Open Food Facts
 
-Ce projet vise à nettoyer, analyser et visualiser les données issues de la base Open Food Facts afin d'assister un organisme de santé publique dans ses prises de décision.
-Le jeu de données Open Food Facts utilisé dans ce projet est disponible via les liens suivants :
+Ce projet a pour objectif de **nettoyer, analyser et visualiser** les données issues de la base Open Food Facts, dans le but de soutenir un organisme de santé publique dans ses prises de décision stratégiques.
 
+🔗 **Sources des Données** :
 - **Site officiel** : [Open Food Facts](https://world.openfoodfacts.org/)
 - **Téléchargement direct** : [Données en format CSV](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-scientist/P2/fr.openfoodfacts.org.products.csv.zip)
 - **Définition des variables** : [Liste des champs de données](https://world.openfoodfacts.org/data/data-fields.txt)
 
+## 🌟 Objectifs du Projet
 
-## Objectifs du Projet
+### 🛠️ 1. Traitement du Jeu de Données
+   - **Identifier les variables pertinentes** pour les traitements futurs.
+   - **Nettoyer les données** :
+     - 🔍 Détection et traitement des **valeurs manquantes** avec au moins trois méthodes adaptées.
+     - ⚠️ Identification et gestion des **valeurs aberrantes**.
 
-1. **Traitement du Jeu de Données**
-   - Identifier les variables pertinentes pour les traitements futurs.
-   - Nettoyer les données :
-     - Détection et traitement des valeurs manquantes avec au moins trois méthodes adaptées.
-     - Identification et gestion des valeurs aberrantes.
-   - Automatisation des processus de nettoyage pour garantir la reproductibilité, même en cas de modifications légères des données (par ex. ajout de nouvelles entrées).
+### 📊 2. Visualisations et Analyse Exploratoire
+   - **Créer des visualisations** pour mieux comprendre les données.
+   - **Analyse univariée** pour chaque variable intéressante : histogrammes, boxplots, diagrammes circulaires, etc.
 
-2. **Visualisations et Analyse Exploratoire**
-   - Créer des visualisations pour mieux comprendre les données.
-   - Réaliser une analyse univariée pour chaque variable intéressante (histogrammes, boxplots, diagrammes circulaires, etc.).
-   - Adapter les visualisations pour un public néophyte avec des choix clairs de couleurs, de textes, et de graphiques variés.
+### 🔬 3. Analyse Multivariée et Sélection de Variables
+   - **Analyse multivariée** pour sélectionner ou créer de nouvelles variables pertinentes.
+   - Vérifier la significativité des résultats à l'aide de **tests statistiques appropriés**.
 
-3. **Analyse Multivariée et Sélection de Variables**
-   - Effectuer une analyse multivariée pour sélectionner ou créer de nouvelles variables pertinentes.
-   - Vérifier la significativité des résultats à l'aide de tests statistiques appropriés.
+### 📄 4. Rapport d'Exploration et Conclusion
+   - Rédiger un **rapport synthétique** des analyses effectuées et des résultats obtenus.
+   - **Évaluer la faisabilité** de l'application demandée en fonction des données.
 
-4. **Rapport d'Exploration et Conclusion**
-   - Rédiger un rapport synthétisant les analyses effectuées et les résultats obtenus.
-   - Évaluer la faisabilité de l'application demandée en fonction des données.
-
-5. **Respect des Principes du RGPD**
-   - Expliquer en quoi le projet respecte les cinq grands principes du RGPD (Règlement Général sur la Protection des Données).
-   - Fournir un document destiné à Santé Publique France pour publication sur le site Open Food Facts, répondant aux préoccupations concernant le respect du RGPD.
+### 🔒 5. Respect des Principes du RGPD
+   - **Expliquer** en quoi le projet respecte les cinq grands principes du RGPD (Règlement Général sur la Protection des Données).
+   - Fournir un document destiné à **Santé Publique France** pour publication sur le site Open Food Facts, répondant aux préoccupations concernant le respect du RGPD.
 
 ---
 
-## Détails des Étapes
+## 🌟 Résultats Attendues
 
-### 1. Traitement du Jeu de Données
-
-#### Sélection des Variables Pertinentes
-- Analyse préliminaire pour déterminer les variables nécessaires à l'étude.
-
-#### Gestion des Valeurs Aberrantes
-- Analyse métier  couplée a l'analyse des distributions via des graphiques comme les boxplots pour détecter les valeurs extrêmes.
-
-- #### Gestion des Valeurs Manquantes
-- **Méthodes utilisées :**
-  - Remplissage par la moyenne/médiane pour les données quantitatives.
-  - Remplissage orienté métier
-  - Remplissage grâce à l'itérative imputer et le KNN
-    
-
-### 2. Visualisations et Analyse Exploratoire
-- Graphiques variés pour illustrer les tendances et distributions :
-  - Histogrammes pour les distributions.
-  - Nuages de points pour les corrélations.
-  - Boxplots pour détecter les anomalies.
-- Lisibilité garantie pour un public non-expert (choix de couleurs harmonieuses, annotations claires).
-
-### 3. Analyse Multivariée et Sélection de Variables
-- Méthodes utilisées :
-  - Analyse en composantes principales (ACP).
-  - Tests d'hypothèses pour valider les relations entre variables.
-
-
----
-
-## Résultats Attendues
-- Une base de données propre et analysable.
-- Visualisations claires et pertinentes.
-- Documentation expliquant chaque étape pour un public non technique.
+- 🗂️ **Une base de données propre et analysable** : Traitée avec rigueur pour garantir des résultats fiables.
+- 📈 **Visualisations claires et pertinentes** : Des graphiques attractifs et informatifs pour interpréter les données facilement.
+- 📝 **Documentation pédagogique** : Explications détaillées de chaque étape pour un public non technique, avec une approche simple et accessible.
 
 ---
