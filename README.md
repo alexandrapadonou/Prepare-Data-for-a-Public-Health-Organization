@@ -1,4 +1,6 @@
 # Prepare Data for a Public Health Organization
+![image](https://github.com/user-attachments/assets/1e2a6842-5100-4809-83db-0980f4cebfd4)
+
 In this project, I will develop exploratory analysis skills while focusing on data cleaning and multivariate analysis.
 
 Ce projet utilise les bibliothèques Python suivantes :
