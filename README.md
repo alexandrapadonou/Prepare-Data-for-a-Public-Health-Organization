@@ -1,6 +1,22 @@
 # Prepare Data for a Public Health Organization
 In this project, I will develop exploratory analysis skills while focusing on data cleaning and multivariate analysis.
 
+Ce projet utilise les bibliothèques Python suivantes :
+
+- **Pandas** : pour le traitement et l'analyse des données.
+- **NumPy** : pour les calculs numériques.
+- **Matplotlib** et **Seaborn** : pour les visualisations.
+- **Scikit-learn** : pour les analyses statistiques et d'apprentissage machine.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-1.x-green.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.x-orange.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-red.svg)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.11+-yellow.svg)
+![Missingno](https://img.shields.io/badge/Missingno-0.5.2-purple.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.x-lightblue.svg)
+
+
 ---
 
 # Analyse des Données Open Food Facts
@@ -69,22 +85,6 @@ Le jeu de données Open Food Facts utilisé dans ce projet est disponible via le
 - Méthodes utilisées :
   - Analyse en composantes principales (ACP).
   - Tests d'hypothèses pour valider les relations entre variables.
-
----
-
-## Bibliothèques Utilisées
-
-Ce projet utilise les bibliothèques Python suivantes :
-
-- **Pandas** : pour le traitement et l'analyse des données.
-- **NumPy** : pour les calculs numériques.
-- **Matplotlib** et **Seaborn** : pour les visualisations.
-- **Scikit-learn** : pour les analyses statistiques et d'apprentissage machine.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-1.x-green.svg)
-![NumPy](https://img.shields.io/badge/NumPy-1.x-orange.svg)
-
 
 
 ---
