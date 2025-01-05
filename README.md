@@ -6,6 +6,12 @@ In this project, I will develop exploratory analysis skills while focusing on da
 # Analyse des Données Open Food Facts
 
 Ce projet vise à nettoyer, analyser et visualiser les données issues de la base Open Food Facts afin d'assister un organisme de santé publique dans ses prises de décision.
+Le jeu de données Open Food Facts utilisé dans ce projet est disponible via les liens suivants :
+
+- **Site officiel** : [Open Food Facts](https://world.openfoodfacts.org/)
+- **Téléchargement direct** : [Données en format CSV](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-scientist/P2/fr.openfoodfacts.org.products.csv.zip)
+- **Définition des variables** : [Liste des champs de données](https://world.openfoodfacts.org/data/data-fields.txt)
+
 
 ## Objectifs du Projet
 
